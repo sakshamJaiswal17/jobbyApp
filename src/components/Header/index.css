@@ -1,0 +1,79 @@
+.nav-content {
+  background-color: #272727;
+
+  background-size: cover;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+Link {
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+.link-name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+.logout-desktop-btn {
+  margin-right: 40px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: 0px;
+  border-radius: 10px;
+}
+.nav-menu-mobile {
+  background-color: #272727;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  color: white;
+  height: 30px;
+  width: 30px;
+  margin: 30px;
+}
+
+.nav-menu-item-mobile {
+  list-style-type: none;
+}
+
+.logout-mobile-btn {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 40px;
+}
+
+.logout-icon {
+  height: 40px;
+  width: 40px;
+}
+@media screen and (min-width: 767px) {
+  .nav-content {
+    display: flex;
+  }
+  .nav-menu-mobile {
+    display: none;
+  }
+}

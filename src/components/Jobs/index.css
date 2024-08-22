@@ -1,0 +1,160 @@
+.jobs-bg {
+  background-color: black;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  color: white;
+}
+.jobs-container {
+  margin: 15px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search-conatiner {
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  border: 1px solid #64748b;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+.search-input {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: transparent;
+  border: 0px;
+}
+.search-icon {
+  background-color: #272727;
+  cursor: pointer;
+  color: white;
+  height: 100%;
+  
+  text-align: center;
+}
+.jobs-and-search-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.no-jobs-img {
+  height: 300px;
+  width: 300px;
+}
+.filter-container {
+  width: 30%;
+  margin: 10px;
+}
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retry-btn {
+  background-color: #4f46e5;
+  font-size: 15px;
+  padding: 7px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 0px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+}
+.profile-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+.profile-name {
+  color: #6366f1;
+  font-size: 25px;
+}
+.profile-bio {
+  font-size: 17px;
+  color: #64748b;
+}
+.row-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+}
+.filter-heading {
+  font-size: 25px;
+}
+.label-checkbox {
+  font-size: 15px;
+  margin-left: 7px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.failure-heading {
+  font-size: 25px;
+}
+.failure-description {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .jobs-bg {
+    padding: 15px;
+  }
+  .no-jobs-img {
+    height: 200px;
+    width: 200px;
+  }
+  .filter-container {
+    width: 30%;
+    margin: 7px;
+  }
+  .retry-btn {
+    font-size: 12px;
+    padding: 7px;
+    width: 110px;
+  }
+  .profile-container {
+    padding: 15px;
+  }
+  .profile-img {
+    height: 40px;
+    width: 40px;
+  }
+  .profile-name {
+    font-size: 18px;
+  }
+  .profile-bio {
+    font-size: 10px;
+  }
+  .filter-heading {
+    font-size: 18px;
+  }
+  .label-checkbox {
+    font-size: 10px;
+  }
+  .failure-heading {
+    font-size: 20px;
+  }
+  .failure-description {
+    font-size: 10px;
+  }
+}
